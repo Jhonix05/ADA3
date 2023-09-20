@@ -1,0 +1,52 @@
+/* Estilos para consulta.php (resultados) */
+
+/* Estilos para los resultados */
+.results {
+  margin: 0 auto; /* Centra horizontalmente el área de resultados */
+  max-width: 600px; /* Limita el ancho del área de resultados */
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left; /* Ajusta el texto a la izquierda */
+}
+
+.results h2 {
+  color: #007bff;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.results p {
+  margin: 0;
+  padding: 5px 0;
+}
+
+/* Estilos para la tabla de resultados */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 8px 12px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Resto de los estilos */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
